@@ -1,12 +1,157 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
-  <title>HTML and CSS</title>
+    <meta name="author" content="XiangyuLi">
+    <meta charset="UTF-8">
+    <title>YellowFlower| california web design</title>
+
+    <style>
+        body {
+            background-color: #FCFBEF;
+            background-image: url(http://cs-server.usc.edu:45678/hw/hw3/images/background.png);
+            background-repeat: repeat-x;
+            width: 940px;
+            margin: auto;
+            padding: 0px;
+        }
+        /* Picture part */
+        
+        div.main {
+            position: relative;
+            background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/main.jpg");
+            width: 900px;
+            height: 354px;
+            margin: auto;
+        }
+        /* Nav part */
+        
+        div.menu {
+            background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/menu.png");
+            width: 940px;
+            height: 69px;
+            margin: auto;
+        }
+        
+        div.flower {
+            position: absolute;
+            right: 14%;
+            bottom: 20%;
+        }
+        /* Text part */
+        
+        div.text {
+            background-color: white;
+            width: 900px;
+            margin: auto;
+        }
+        
+        div.text .footer {
+            text-align: center;
+        }
+        
+        div.text .link {
+            color: #E4CA10;
+            font-weight: bolder;
+        }
+        /* Other part */
+        
+        h1,
+        h2,
+        p {
+            width: 98%;
+            margin: auto;
+        }
+        
+        h1 {
+            font-size: 1.3em;
+        }
+        
+        h2 {
+            font-size: 1em;
+        }
+        
+        p {
+            font-size: 0.87em;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        table {
+            width: 93%;
+            height: 71%;
+            margin: auto;
+        }
+        td {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        td a {
+            color: #3c3504;
+        }
+    </style>
 </head>
 
 <body>
-<p> This is HTML and CSS</p>
+    <div class="main">
+        <div class="flower">
+            <b><font color="#AB970C" size="5">Yellow</font><font color="#F2D76A" size="5">Flower</font></b>
+            <br>
+            <b><font color="#776906" size="4">A site by Brian Calhoun</font></b>
+        </div>
+    </div>
+
+
+
+    <div class="menu">
+        <table>
+            <tr>
+                <td>
+                    <a class="link" id="Home" href="X.html#Home" target="_blank">Home</a>
+                </td>
+                <td>
+                    <a class="link" id="About" href="X.html#About" target="_blank">About</a>
+                </td>
+                <td>
+                    <a class="link" id="Products" href="X.html#Products" target="_blank">Products</a>
+                </td>
+                <td>
+                    <a class="link" id="Services" href="X.html#Services" target="_blank">Services</a>
+                </td>
+                <td>
+                    <a class="link" id="Design" href="X.html#Design" target="_blank">Design</a>
+                </td>
+                <td>
+                    <a class="link" id="Contact" href="X.html#Contact" target="_blank">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div class="text">
+        <h1>Pig and PigLatin</h1>
+        <br>
+        <br>
+        <h2>About</h2>
+        <p>Pig was initially developed at Yahoo! to allow people using Apache Hadoop &reg; to focus more on analyzing large data sets and spend less time having to write mapper and reducer programs. Like actual pigs, who eat almost anything, the Pig programming language is designed to handle any kind of data&#8212;hence the name!.</p>
+        <br>
+        <p>Pig is made up of two components: the first is the language itself, which is called PigLatin(yes,people naming various Hadoop projects do tend to have a sense of humor associated with their naming conventions),and the second is a runtime environment where PigLatin programs are executed. Think of the relationship between a Java Virtual Machine(JVM) and a Java application. In this section, we'll just refer to the whole entity as Pig.</p>
+        <br>
+        <h2>More information</h2>
+        <p>Stay on top of all the changes, including Hadoop-based analytics, streaming analytics, warehousing(including BigSQL), data asset discovery, integration and governance.<a class="link" id="normalLinks" href="X.html#NormalLinks" target="_blank">This is what a normal links looks like</a>.</p>
+        <br>
+        <footer class="footer">
+            <p><a class="link" id="Website" href="X.html#Website" target="_blank">Website</a> by <a class="link" id="SuperCanvasDesign" href="X.html#SuperCanvasDesign" target="_blank">Super Canvas Design</a></p>
+        </footer>
+    </div>
+
+
 </body>
+
 
 </html>
